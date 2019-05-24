@@ -1,0 +1,132 @@
+﻿
+Otsar ha-sefarim: ḥeleḳ sheni : kolel heʻarot, tiḳunim, hosafot u-mafteaḥ shemot ha-meḥabrim le-sefer Otsar ha-sefarim shel Yitsḥaḳ Ayziḳ ben-Yaʻaḳov
+#20175127
+Oçar ha-sparim: ḥelq šeni : kolel he``arot, tiqqunim, hosapot w-mapteḥ  šmot ha-mḥabrim l-sepr `oçar ha-sparim šell Yiçḥaq `ayziq ben-Ya&qob
+#20175127
+
+mapteaḥ  -->  mapteḥ   [ pattax ganub lipnei ha-`ot ba-sop lo` niktab]
+=     =     =     =     =     =     =     =     =     =
+
+Yehudim be-vet ha-mishpaṭ ha-Muslemi: ḥevrah, kalkalah ṿe-irgun ḳehilati bi-Yerushalayim ha-ʻOt'manit : ha-meʼah ha-shemoneh-ʻeśreh
+#36139917
+Yhudim b-bet ha-mišpaṭ ha-Muslmi: ḥebra, kalkala w-`irgun qhilati bi-Yrušalaym ha-&ot`manit : ha-me`a ha-šmoneh-&eśre
+
+b-bet  -->  b-beit    [nismak $ell  bayt ]
+qhilati  -->  qhillati      [ r$imat mikpal b-pnim ]
+bi-Yrušalaym  --->  b-Yrušalaym
+&ot`manit  -->  &otmanit   [ `axrei ha- t  siman myuttar bi$bil /th/ ]
+šmoneh  -->  šmone
+=     =     =     =     =     =     =     =     =     =    ç   ç    ç
+
+Leshonot masorot u-minhagot: ʻiyunim ba-leshonot, ba-masorot, be-orḥot ḥayim uṿa-yetsirot shel ha-Yehudim be-Magreb ṿe-ʻiyunim bi-leshonot ha-Yehudim
+#651599530
+ Lšonot massorot w-minhagot: &iyyunim b-lšonot, b-massorot, b-`orḥot ḥayym ˀuwa-yçirrot šell ha-Yhudim b-Magreb w-&iyyunim bi-lšonot ha-Yhudim
+
+ˀuwa-yçirrot  -->  w-ba-yçirrot
+yçirrot -->  yçirot        [ `ein mikpal ] 
+b-Magreb  -->  ba-Magreb         [ Magreb - $em `erç = $em pra@i ]
+=     =     =     =     =     =     =     =     =     =    ç 
+
+Be-shem ha-nof: leʼumiyut, migdar ṿe-subyeḳṭiviyut ba-shirah ha-Yiśreʼelit bi-shenot ha-ḥamishim ṿeha-shishim 
+#76952707
+ B-šem ha-nop: l`umiyut, migdar w-subyeqṭibiyut ba-šira ha-Yiśre`lit bi-šennot ha-ḥmišim w-ha-šiššim 
+#76952707
+
+l`umiyut  -->  l`ummiyut      [ ha-milla :  l`omm  mikpal ba-sop ]
+bi-šennot   -->  b-šnot        [ $ana  : `ein mikpal.  lo` ba-r$ima ]
+ḥmišim  -->  ḥmiššim        [  ḥame$$ -  mikpal ba-sop ]
+=     =     =     =     =     =     =     =     =     =    ç 
+
+ha-Shirim hakhi yafim be-ʻIvrit: meʼah shenot shirah Yiśreʼelit : 182 meshorerim, 361 shirim, 14 shirim meforashim
+#829427246
+ ha-širrim haki yappim b-&ibrit: me`a šennot šira Yiśre`lit : 182 mšor_rim, 361 širrim, 14 širrim mporašim
+#829427246
+
+širrim  -->  širim     [  šir  :  bli mikpal ba-sop ]
+yappim  -->  yapim   [ yape :  `ein mikpal ]
+šennot  -->  šnot      [haya lma&la ]
+Yiśre`lit  -->Yiśr`elit    [ ha- `  `aḥrei ha- e ]
+mporašim  -->  mporrašim     [mikpal lpi ha-mi$qal, o lipnei r bimqom u]
+širrim    širrim
+=     =     =     =     =     =     =     =     =     =    ç 
+
+==  &ad ka`n
+
+Moshel hayiti bi-Yerushalayim: ha-&ir ṿeha-maḥoz be-&enaṿ shel &Ali Ekrem Bai: 1906-1908
+#34549477
+ Mošel hyiti bi-Yrušalaym: ha-&ir w-ha-maḥḥoz b-&naw šell &ali `ekrem Bai: 1906-1908
+#34549477
+
+bi-Yrušalaym  -->  b-Yrušalaym    
+ṿeha-  --->  w-ha-
+maḥḥoz   -->  maḥoz       [ `ein mikpal ] 
+b-&naw  -->  b-&einaw  
+=     =     =     =     =     =     =     =     =     =    ç 
+
+ha-Ma`avaḳ &al ha-ḳol: neshot ha-yishuv u-zekhut ha-beḥirah 1917-1926
+#852744228
+ ha-Maˀbaq &al ha-qol: nšot ha-yiššub w-zkut ha-bḥira 1917-1926
+#852744228
+                                                    ה כ ו ל    ב ס ד ר    !!!
+=     =     =     =     =     =     =     =     =     =    ç 
+
+Me-ḥevrat &avodah le-irgun &ovdim: leḳeṭ ma`amarim &al Histadrut ha-&ovdim bi-yeme ha-Yishuv ṿeha-Medinah
+#45901230
+Me-ḥebrat &boda l-`irgun &obdim: leqṭ ma`marim &al Histadrut ha-&obdim bi-ymei ha-Yiššub w-ha-Mdina
+#45901230
+
+Histadrut  -->  Histaddrut       [mikpal lpi ha-mi$qal]
+ bi-yeme  -->  b-ymei
+                                                          ת י ק ו ן   מועט
+=     =     =     =     =     =     =     =     =     =    ç 
+
+Em ha-kenesiyot kulan: Kenesiyat Yerushalayim me-reshitah ṿe-ʻad ha-kibush ha-Muslemi 
+#317879915
+`Em ha-knesiyot kullan: Knesiyat Yrušalaym me-ršita w-&ad ha-kibbuš ha-Muslmi 
+#317879915
+
+ršita  -->  re`šitah       [ milla myuxedt.  ha-sop:  kinnuy šayyakut: šellah] 
+                                                                             ט ע ו ת     א ח ת 
+=     =     =     =     =     =     =     =     =     =    ç 
+
+Ma&aśeh sofrim ba-Miḳra: osef ma`amarim ha-danim ba-ḳolofonim ba-Miḳra öve-sefer Ben-Sira, ba-talmidim, ba-neviʼim, ba-sofrim, bi-shemot ha-sefarim, uve-tahalikh mesirat ha-nevuʼot
+#47829687
+ 
+Ma&śe soprim b-miqraˀ: `osp ma`marim ha-dannim b-qoloponim b-miqra` öbe-sepr Ben-Sira, b-talmidim, b-nebi`m, b-soprim, bi-šmot ha-sparim, w-b-tahlik msirrat ha-nbuˀˀot
+#47829687
+
+dannim  -->  danim      [ ha-milla:  dan   `ein mikpal]
+öbe  -->  w-b-
+b-nebi`m  -->  b-nbi`im   [ im :  tosept ribbuy ]
+bi-šmot  -->  b-šmot
+msirrat  -->  msirat      [  `ein mikpal (lpi  ha-mišqal]
+nbu``ot  -->  nbu`ot      [   ha-milla:   nbu`a  lo` b-mikpal ]
+=     =     =     =     =     =     =     =     =     =    ç  
+
+Giborim le-mofet: tsanḥane ha-yishuv be-milḥemet ha-&olam ha-sheniyah ṿeha-zikaron ha-ḳoleḳṭivi ha-yiśre`eli
+#57413032
+ gibborim l-mope: çanḥanei ha-yiššub b-milḥemt ha-&olam ha-šniya w-ha-karron ha-qoleqṭibi ha-yiśre`li
+#57413032
+ 
+l-mope:  -->  l-mopet:   ??
+ha-karron  -->  ha-zikkaron   ??  [ bli mikpal b- r ]
+yiśre`li  -->  yiśr`eli
+=     =     =     =     =     =     =     =     =     =    ç   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

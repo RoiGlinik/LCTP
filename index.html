@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">	
+		<title></title>
+        <meta charset="UTF-8">
+		<link rel="stylesheet" href="css/main.css">
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    	<meta charset="UTF-8">
+    	<meta name="description" content="The LC convertor">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="author" content="Uzzi Ornan">
+		
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	</head>
+	<body>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<h1 class="page-header">Welcome to CPH - <span class="lead">Library congress to Phonemic hebrew converter</span></h1>
+				</div>
+			</div>
+		
+			<div class = "row">
+				<div class="col-sm-6">
+				
+					<h5>Please insert library congress text</h5>
+					<textarea class="form-control" id="inputArea" rows="12" cols= "50"></textarea>
+
+					<div id="keyboard"  class=""
+					onClick="inputArea.focus();"					
+					onMouseDown="if (event.target.value) insertAtCaret('inputArea', event.target.value); ">
+						<button type="button" id="btnh" class="key btn btn-default letter" value="ḥ"><strong>ḥ</strong> ח</button>
+						<button type="button" class="key btn btn-default letter" value="`"><strong>`</strong> א</button>
+						<button type="button" class="key btn btn-default letter" value="ṿ"><strong>ṿ</strong> ו</button>
+						<button type="button" class="key btn btn-default letter" value="ḥ"><strong>ḥ</strong> ח</button>
+						<button type="button" class="key btn btn-default letter" value="ṭ"><strong>ṭ</strong> ט</button>
+						<button type="button" class="key btn btn-default letter" value="‘"><strong>‘</strong> ע</button>
+						<button type="button" class="key btn btn-default letter" value="ḳ"><strong>ḳ</strong> ק</button>
+						<button type="button" class="key btn btn-default letter" value="ś"><strong>ś</strong> ש</button>
+					</div>
+					<div class="">
+						<button type="button" class="key btn btn-success letter success" id="clickme" value="Convert">Convert</button>	
+					</div>	
+				</div>
+				<div class="col-sm-6">
+					<h5>Phonemic hebrew output:</h5>
+					<textarea class="form-control" id="user_output" readonly rows="12" cols= "50"></textarea>
+				</div>
+			</div>
+		
+				
+		
+			
+			</div >
+			</div>
+		</div>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
