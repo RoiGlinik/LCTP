@@ -767,7 +767,7 @@ $CeCV_words = array (
 
 for($i = 0; $i< sizeof($pattern) ; $i++)
 {
-    $text = preg_match_with_pattern_exception_on_matches($pattern[$i], $pattern_rep[$i], "" ,$exceptions[$i], $text);
+    $text = preg_match_with_pattern_exception_on_matches($pattern[$i], $pattern_rep[$i], "/NOPATTERN/u" ,$exceptions, $text);
 }
    
 

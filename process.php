@@ -160,12 +160,14 @@ if (isset($_POST['data'])){
 	$fllc = array(
 	" miha-" , " meha-", " u-"," weha-"," ube-"," v-",
 	" uba-" ," umi-"," ulei-", " ule-"," keše-",
-	"štayim","šebaˁ","šmonei","tešaˁ"," wela-",' o ',' uwe-'
+	"štayim","šebaˁ","šmonei","tešaˁ"," wela-",' o ',' uwe-',
+	'šelo', 'šebo'          
 	);
 	$flp = array(
 	" mi-ha-" , " me-ha-"," w-"," w-ha-"," w-b-"," w-",
 	" w-ba-"," w-mi-"," w-l-", " w-l-"," kše-",
-	"šteim","šbaˁ","šmone","tšaˁ"," we-l",' ˀo ',' w-b-'
+	"šteim","šbaˁ","šmone","tšaˁ"," we-l",' ˀo ',' w-b-',
+	'še-lo', 'še-bo'
 	);
 	$text = str_ireplace($fllc, $flp, $text);
 
@@ -301,7 +303,7 @@ if (isset($_POST['data'])){
 	include 'normal_patterns.php';
 	include 'CeCV.php';
 	$text = convertToRegEx($CeCV_words, $text);
-	include 'C1C2[aeu].php';
+	//include 'C1C2[aeu].php';
 	
 	include 'words_ending_with_alif.php';
 	$text = convertToRegEx($words_ending_with_alif, $text);
@@ -317,13 +319,13 @@ if (isset($_POST['data'])){
 	// "/([ ,]($C*$V+$C*)[e])[-](($C|$V){3,})/u",
 	);
 	
-$rep_pattern = array( '\1i',  /*'\1i-\3', '\1i-\3'*/);
+    $rep_pattern = array( '\1i',  /*'\1i-\3', '\1i-\3'*/);
 	$text = preg_replace($pattern, $rep_pattern, $text);
 	include 'h_endOfWord.php';
 	include 'aetAtEndOfWord.php';
 	$text = strtr($text, $aetAtEndOfWord);
 		
-	include 'special_patterns.php';
+	//include 'special_patterns.php';
 
 	$text = vsprintf($text, $matches);
 

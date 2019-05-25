@@ -14,7 +14,7 @@ for($i = 0; $i < sizeof($relevant_cases) ; $i++ )
 {
     $C1 = $relevant_cases[$i][0];
     $C2 = $relevant_cases[$i][1];
-    $patterna = "/(\\b($C|$V)*{$C1}($C|$V)*{$C2}($C|$V)*[aeu]) /";
+    $patterna = "/(\\b($C|$V)*{$C1}($C|$V)*{$C2}($C|$V)*[aeu])\\b/";
 
     $text = preg_replace($patterna, '\1ˀ', $text); 	 
 }

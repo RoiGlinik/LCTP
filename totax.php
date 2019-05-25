@@ -817,6 +817,13 @@ $totax_list = array (
     "tepes" => "teps",
     "tepep" => "tepp",
     "teqaˁ" => "teqˁ",
-    'qobeç' => 'qobç'
+    'qobeç' => 'qobç',
+
+    'seder' => 'sedr',
+    'noˁada' => 'noˁda',
+    'ˀopen' => 'ˀopn',
+    'biqoret' => 'biqort',
+    'matkonet' => 'matkont'
+
 
    );
