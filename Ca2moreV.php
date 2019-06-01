@@ -7,7 +7,9 @@ $exceptions = array(
     "mate-", // only 1 V is needed in case of a dash(-)
     "hayiti",
     "raˀi",
-    'laken'
+    'laken',
+    'ḥalonot',
+    'ˀalenbi'
 );
 
 for($i = 0; $i< sizeof($pattern) ; $i++)

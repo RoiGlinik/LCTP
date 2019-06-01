@@ -2017,5 +2017,7 @@ $no_pattern_micpal_middle = array (
     'ˀaba' => 'ˀabba',
     'ziqa' => 'ziqqa',
     'raçça' => 'raça',
+    'mgale' => 'mgalle',
+    'mratq'=> "mrattq"
 );
 

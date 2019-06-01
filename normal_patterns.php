@@ -22,7 +22,7 @@ will replace matches with %s and then recover them with vsprint.
         "/(((\\b[nytmhˀ][i])[t]([c])[a]($C)\\5)([e]$C))/u", //4
 
         "/(\\b({$C}[i]($C))([e]$C))/u", //5
-        "/(\\b({$C}[i]($C))([a]{$C}[o][n]))/ui", //6
+        "/(\\b({$C}[i]({$C}))([a]{$C}{$suffix}))/ui", //6
 
         "/(\\b([hmˀnty][u]($C))([a]$C)\\b)/ui", //7
         "/(\\b([nythˀ][i]($C))([a]{$C}[e]$C))/u", //8
