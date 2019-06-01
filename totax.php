@@ -823,7 +823,10 @@ $totax_list = array (
     'noˁada' => 'noˁda',
     'ˀopen' => 'ˀopn',
     'biqoret' => 'biqort',
-    'matkonet' => 'matkont'
+    'matkonet' => 'matkont',
+    'boqer' => 'boqr',
+    'ˀeçel' => 'ˀeçl',
+    
 
 
    );
