@@ -628,7 +628,7 @@ $totax_list = array (
     "ˁeles" => "ˁels",
     "ˁeleç" => "ˁelç",
     "ˁeleq" => "ˁelq",
-    "ˁemet" => "ˁemt",
+    //"ˁemet" => "ˁemt",
     "ˁener" => "ˁenr",
     "ˁepep" => "ˁepp",
     "ˁepeš" => "ˁepš",
@@ -818,7 +818,7 @@ $totax_list = array (
     "tepep" => "tepp",
     "teqaˁ" => "teqˁ",
     'qobeç' => 'qobç',
-
+    'ˁeçem' => 'ˁeçm',
     'seder' => 'sedr',
     'noˁada' => 'noˁda',
     'ˀopen' => 'ˀopn',
@@ -826,6 +826,7 @@ $totax_list = array (
     'matkonet' => 'matkont',
     'boqer' => 'boqr',
     'ˀeçel' => 'ˀeçl',
+    'qodem' => 'qodm', 
     
 
 

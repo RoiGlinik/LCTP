@@ -7,7 +7,7 @@
 	"/\\b((($C|$V)+)ehem)\\b/u", //10
 	"/\\b((($C|$V)+)ai)\\b/u", //11
 
-	"/(\\b(\\S*[e]{$C})[e]([t]))\\b/u",
+	"/\\b(($C|$V)+[e]{$C})et\\b/u",
 	"/(\\b(\\S*)[a][c][t])\\b/u",
 	"/(\\b(\\S{4,})[y][i][m])\\b/u",
 	
@@ -21,7 +21,7 @@
 	'\2eihem',//10
 	'\2ay',//11
 
-	'\2\3',
+	'\1t',
 	'\2ect',
 	'\2ym'
 	);
@@ -29,7 +29,7 @@
 	$exceptions = array(
 		"heççegim",
 		'šˀelot',
- 
+		'ˀemet',
 	);
 
 	$size = count($suffix_patterns);

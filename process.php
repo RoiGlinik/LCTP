@@ -133,8 +133,8 @@ $pattern_rep_fix, $exceptions, $input_string)
 
 if (isset($_POST['data'])){
 
-	$C = '[^AIEOUaieou\s\- ]';
-	$CNOG = '[^hḥˁˀAIEOUaieou\s\- ]';
+	$C = '[^AIEOUaieou\s\-0123456789 ]';
+	$CNOG = '[^hḥˁˀAIEOUaieou\s\-0-9 ]';
 	$V = '[aieouAIEOU]';
 	$G = "[hḥˁˀ]";
 	$G1 = "[ḥ]";
@@ -144,7 +144,7 @@ if (isset($_POST['data'])){
 	$text = $_POST['data'];
 	$text = mb_strtolower( $text, 'UTF-8' );
 	$text = " $text";
-	$pattern = '';
+ 	$pattern = '';
 	$result = '';
 
 	$suffix = "((ut)|(ot)|(on)|(aym)|(iyut)|(it)|(iyyut)|(im)|(ot)|(eika)|(ek)|(ka)|(yik)|(kem)|(ken)|(eka)|(enu))?";
