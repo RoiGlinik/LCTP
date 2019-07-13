@@ -133,8 +133,8 @@ $pattern_rep_fix, $exceptions, $input_string)
 
 if (isset($_POST['data'])){
 
-	$C = '[^AIEOUaieou\s\-0123456789 ]';
-	$CNOG = '[^hḥˁˀAIEOUaieou\s\-0-9 ]';
+	$C = '[^AIEOUaieou\s\-9 ]';
+	$CNOG = '[^hḥˁˀAIEOUaieou\s\- ]';
 	$V = '[aieouAIEOU]';
 	$G = "[hḥˁˀ]";
 	$G1 = "[ḥ]";
@@ -144,7 +144,7 @@ if (isset($_POST['data'])){
 	$text = $_POST['data'];
 	$text = mb_strtolower( $text, 'UTF-8' );
 	$text = " $text";
- 	$pattern = '';
+    $pattern = '';
 	$result = '';
 
 	$suffix = "((ut)|(ot)|(on)|(aym)|(iyut)|(it)|(iyyut)|(im)|(ot)|(eika)|(ek)|(ka)|(yik)|(kem)|(ken)|(eka)|(enu))?";
@@ -192,7 +192,7 @@ if (isset($_POST['data'])){
 	//Hemshekhim, words like datiy and bein aswell.
 	//concatenate pattern with new words.
 	
-	$ignored_pattern = "/\\b(([h][e]{$C}{$C}[e]{$C})|(bein)|[0-9+]|(datiy)|(Babel)|(šeni)){$suffix}\\b/u";
+	$ignored_pattern = "/((\%)|(\d*.?\d+)|(datiy)|(Babel)|(šeni)|(bein)|( he{$C}{$C}[e]{$C})){$suffix}/u";
 	//echo "$ignored_pattern"; 
 	preg_match_all($ignored_pattern, $text, $matches);
 	$matches = $matches[0];
@@ -326,8 +326,8 @@ if (isset($_POST['data'])){
 	$text = strtr($text, $aetAtEndOfWord);
 		
 	//include 'special_patterns.php';
-
-	$text = vsprintf($text, $matches);
+	if(!empty($matches))
+		$text = vsprintf($text, $matches);
 
 header('Content-Type: text/plain; charset=utf-8');
 echo (($text));
