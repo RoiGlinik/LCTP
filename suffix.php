@@ -10,7 +10,6 @@
 	"/\\b(($C|$V)+[e]{$C})et\\b/u",
 	"/(\\b(\\S*)[a][c][t])\\b/u",
 	"/(\\b(\\S{4,})[y][i][m])\\b/u",
-	
 	);
 
 	//print_r($suffix_patterns);
@@ -23,7 +22,7 @@
 
 	'\1t',
 	'\2ect',
-	'\2ym'
+	'\2ym',
 	);
 
 	$exceptions = array(
