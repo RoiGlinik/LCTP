@@ -9,7 +9,10 @@ $exceptions = array(
     'Yamim',
     'tamid',
     'hayit',
-    'nagid'
+    'nagid',
+    'hakin',
+    'naśiˀ',
+    'nabil',
 );
 
 $text = preg_match_with_exceptions($pattern, $pattern_rep ,

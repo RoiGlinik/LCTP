@@ -364,7 +364,6 @@ $no_pattern_micpal_middle = array (
     'bagirut' => 'baggirut',
     'bajam ' => 'bajjam ',
     'bajamut' => 'bajjamut',
-    'bakir' => 'bakkir',
     'bakira' => 'bakkira',
     'bakirut' => 'bakkirut',
     'bakura' => 'bakkura',

@@ -30,9 +30,9 @@ function convertToRegEx( $arrayOfWords , $inputText )
 
     foreach ($arrayOfWords as $key => $value)
     {
-        $pattern = "/\\b($key)$suffix\\b/ui";
+        $pattern = "/(^|[ ,-])($key)$suffix\\b/uim";
         $replace = "$value";
-        $inputText = preg_replace($pattern, "$replace\\2", $inputText);
+        $inputText = preg_replace($pattern, "\\1{$replace}\\3", $inputText);
     }
     return $inputText;
 }
@@ -159,13 +159,13 @@ if (isset($_POST['data'])){
 
 	$fllc = array(
 	" miha-" , " meha-", " u-"," weha-"," ube-"," v-",
-	" uba-" ," umi-"," ulei-", " ule-"," keše-",
+	" uba-" ," umi-"," ulei-", " ule-"," keše-", ' le-',
 	"štayim","šebaˁ","šmonei","tešaˁ"," wela-",' o ',' uwe-',
 	'šelo', 'šebo'          
 	);
 	$flp = array(
 	" mi-ha-" , " me-ha-"," w-"," w-ha-"," w-b-"," w-",
-	" w-ba-"," w-mi-"," w-l-", " w-l-"," kše-",
+	" w-ba-"," w-mi-"," w-l-", " w-l-"," kše-", ' l-',
 	"šteim","šbaˁ","šmone","tšaˁ"," we-l",' ˀo ',' w-b-',
 	'še-lo', 'še-bo'
 	);
@@ -312,15 +312,8 @@ if (isset($_POST['data'])){
 	$text = convertToRegEx($no_pattern_micpal_end, $text);
 	$text = convertToRegEx($no_pattern_micpal_middle, $text);
 	include 'C1eC2[oua]C3.php';
-	//add i to words ending with e-
-	$pattern = array(
-	 "/\\b(($C|$V){4,}[e]\\b)/u",
-	// "/([ ,]($C|$V){3,}[e])[-](($C|$V){3,})/u",
-	// "/([ ,]($C*$V+$C*)[e])[-](($C|$V){3,})/u",
-	);
-	
-    $rep_pattern = array( '\1i',  /*'\1i-\3', '\1i-\3'*/);
-	$text = preg_replace($pattern, $rep_pattern, $text);
+	include 'add_i_words_ending_with_e.php';
+
 	include 'h_endOfWord.php';
 	include 'aetAtEndOfWord.php';
 	$text = strtr($text, $aetAtEndOfWord);
