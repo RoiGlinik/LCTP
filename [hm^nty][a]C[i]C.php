@@ -13,6 +13,7 @@ $exceptions = array(
     'hakin',
     'naśiˀ',
     'nabil',
+    'ˀaḥib',
 );
 
 $text = preg_match_with_exceptions($pattern, $pattern_rep ,

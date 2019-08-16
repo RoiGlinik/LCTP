@@ -19,9 +19,9 @@ $exceptions = array(
     'shegal',
     'šekar',
     'geˀe',
-    '',
+    'ˀeineni',
     'qedar',
-    '',
+    'ˀeinenu',
     '',
      
 );

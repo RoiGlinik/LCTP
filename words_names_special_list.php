@@ -20,7 +20,6 @@ $names = array(
     'bayit' => 'bayt',
     'ˁaśot' => 'ˁśot',
     'ˀek' => 'ˀeik',
-    'hayinu' => 'hainu',
     'yiśrˀlim' => 'yiśrˀelim',
     'hinom' => 'hinnom'
 );

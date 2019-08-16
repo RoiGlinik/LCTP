@@ -18,7 +18,10 @@ $exceptions = array(
     'ḥalonot',
     'ˀalenbi',
     'haganot',
-    'halaknu'
+    'halaknu',
+    'baṭuaḥ',
+    'ˁaleiha',
+    'hayinu',
 );
 
 for($i = 0; $i< sizeof($pattern) ; $i++)
