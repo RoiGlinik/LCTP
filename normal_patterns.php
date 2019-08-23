@@ -38,7 +38,7 @@ will replace matches with %s and then recover them with vsprint.
         "/\\b({$G})a({$C}i{$C}a)\\b/u", // hariga ->hriga 16
         "/\\b({$CNOG})e({$C}i{$C}a)\\b/u", // yešiba -> yšiba   17 
 
-        "/\\b({$C}a($C))([e]$C)\\b/u", //18
+      
         );
     
         //print_r($normal_patterns);
@@ -69,7 +69,7 @@ will replace matches with %s and then recover them with vsprint.
         '\2\3\4', //16
         '\1\2\3', //17
         '\1\2', //18
-        '\1\2\3', //18
+
 
                 
 

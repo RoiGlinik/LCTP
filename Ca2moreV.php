@@ -22,6 +22,8 @@ $exceptions = array(
     'baṭuaḥ',
     'ˁaleiha',
     'hayinu',
+    'maçaˀnu',
+    'bakita'
 );
 
 for($i = 0; $i< sizeof($pattern) ; $i++)

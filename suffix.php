@@ -9,7 +9,7 @@
 
 	"/\\b(($C|$V)+[e]{$C})et\\b/u",
 	"/(\\b(\\S*)act)\\b/u",
-	"/(\\b(\\S{4,})yim)\\b/u",
+	"/(\\b(($C|$V){4,})yim)\\b/u",
 	"/\\b(($C|$V){2,})({$V})aˁ\\b/u", //15
 	);
 
@@ -31,7 +31,8 @@
 		"heççegim",
 		'šˀelot',
 		'ˀemet',
-		'gderot'
+		'gderot',
+		
 	);
 
 	$size = count($suffix_patterns);

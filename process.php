@@ -300,6 +300,7 @@ if (isset($_POST['data'])){
 	//in the begining of the word, added case when not only in begging of word.
 	//CeCV -> CCV 
 	//[e]->word ==> ei-[word]
+	include 'C1aC2eC3.php';
 	include 'normal_patterns.php';
 	include 'CeCV.php';
 	$text = convertToRegEx($CeCV_words, $text);

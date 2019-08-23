@@ -82,7 +82,7 @@ $no_pattern_micpal_end = array (
 'gas'=> 'gass',
 'gat'=> 'gatt',
 'ḥoq' => 'ḥoqq', 
-'ḥay' => 'ḥayy',
+//'ḥay' => 'ḥayy',
 'ḥameš' => 'ḥamešš',
 'har'=> 'harr',
 'has'=> 'hass',
@@ -540,6 +540,8 @@ $no_pattern_micpal_end = array (
 'ˁaqom'=> 'ˁaqomm',
 'ˁarob'=> 'ˁarobb',
 'çahob' => 'çahobb',
+'ˁit' => 'ˁitt',
+'qṭan' => 'qṭann',
 );
 
 

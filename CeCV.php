@@ -22,7 +22,8 @@ $exceptions = array(
     'ˀeineni',
     'qedar',
     'ˀeinenu',
-    '',
+    'šehuˀ',
+    'çaˁrenu'
      
 );
 
