@@ -13,7 +13,8 @@
         "nidme",
         "maˀne", 
         "harbe",
-        "naˁśe"
+        "naˁśe",
+        'ˀelle'
     );
     
     for($i = 0; $i< sizeof($pattern) ; $i++)

@@ -542,6 +542,7 @@ $no_pattern_micpal_end = array (
 'çahob' => 'çahobb',
 'ˁit' => 'ˁitt',
 'qṭan' => 'qṭann',
+'kul' => 'kull'
 );
 
 
