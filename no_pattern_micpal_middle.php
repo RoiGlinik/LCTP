@@ -2019,7 +2019,13 @@ $no_pattern_micpal_middle = array (
     'mšutap' => 'mšuttap',
     'bˁiqar' => 'bˁiqqar',
     'kulanu' => 'kullanu',
-    'ˀele' => 'ˀelle'
-
+    'ˀele' => 'ˀelle',
+    'mbaza' => 'mbazza',
+    'rubam' => 'rubbam',
+    'tiçṭarep' => 'tiçṭarrep',
+    'msuyam' => 'msuyyam',
+    'mašehu' => 'maššehu',
+    'mḥumam' => 'mḥummam',
+    'ˀaḥert' => 'ˀaḥḥert',
 );
 

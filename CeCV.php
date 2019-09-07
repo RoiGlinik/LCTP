@@ -1,7 +1,7 @@
 <?php
 
 
-$pattern = array("/(\\b$C)[e]($C$V)(($C*$V$C*)+)\\b/u","/(($C|$V){2,})($C)[e]($C$V)\\b/ui");
+$pattern = array("/(\\b$C)[e]($C$V)(($C*$V$C*)+)\\b/u"/*,"/(($C|$V){2,})($C)[e]($C$V)\\b/ui"*/);
 $pattern_rep = array('\1\2\3','\1\3\4');
 $exceptions = array(
     "geˀograp",// geˀograpit
@@ -23,7 +23,9 @@ $exceptions = array(
     'qedar',
     'ˀeinenu',
     'šehuˀ',
-    'çaˁrenu'
+    'çaˁrenu',
+    'megapon',
+    'ˀenergiya'
      
 );
 

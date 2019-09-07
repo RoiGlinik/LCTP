@@ -31,8 +31,7 @@
 		"heççegim",
 		'šˀelot',
 		'ˀemet',
-		'gderot',
-		
+		'gderot',		
 	);
 
 	$size = count($suffix_patterns);
