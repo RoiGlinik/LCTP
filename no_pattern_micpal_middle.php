@@ -1007,6 +1007,7 @@ $no_pattern_micpal_middle = array (
     'mqira' => 'mqirra',
     'mruça' => 'mruçça',
     'msiba' => 'msibba',
+    'msilah' => 'msillah',
     'msilaˀy' => 'msillaˀy',
     'mtalˁa' => 'mtallˁa',
     'mtom' => 'mtomm',

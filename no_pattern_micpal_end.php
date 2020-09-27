@@ -145,6 +145,7 @@ $no_pattern_micpal_end = array (
 'musab'=> 'musabb',
 'musak'=> 'musakk',
 'musak'=> 'musakk',
+'msil' => 'msill',
 'nasab'=> 'nasabb',
 'pag'=> 'pagg',
 'pannag'=> 'pannagg',
