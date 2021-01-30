@@ -59,7 +59,7 @@ $suffix_patterns = array(
     "/((\S*)([o][t]\b))/u"
     );
 
-    $suffix_patterns_con =  "/([^-,.\n ]*)(ut|on|aym|iyut|it|iyyut|im|ot|ahem|an|u|i|a)\\b/u";
+    $suffix_patterns_con =  "/([^-,.\n ]*)(ut|at|on|aym|iyut|it|iyyut|im|ot|ahem|an|u|i|a|e)\\b/u";
 
 
 $suffix_replace = array(
@@ -67,68 +67,51 @@ $suffix_replace = array(
 '([i][y][y][u][t])','([i][m])','([o][t])');
     
 
-function longWord($var)
-{
-    return(strlen($var) >3 );
-}
+function longWord($var) { return(strlen($var) >3 ); }
 
 function check_micpal_with_no_suffix($matches, $suffix_patterns_con,$text , $no_pattern_micpal_middle) 
 {
-    $match_flag = false;
+    if(empty($matches))
+        return;
+
+    $matches_replace = array_fill(0, count($matches), "");
     $V = array("a","i","e","u","o",""); 
 
-    foreach($matches as $match)
+    for($i = 0 ; $i < count($matches) ; $i++)
     {       
- 
+        $match = $matches[$i];
         $suffix = get_suffix($suffix_patterns_con, $match);
+        $word_without_suffix =  preg_replace($suffix_patterns_con,"\\1",$match);
 
-        $word_without_suffix =  preg_replace($suffix_patterns_con,"\\2",$match);
-       
         foreach($V as $v)
         {
-            $iterator = $word_without_suffix;
-  
-            $iterator .= $v;   
- 
+            $iterator = $word_without_suffix . $v;
+
             if(array_key_exists( $iterator  , $no_pattern_micpal_middle ) ) 
             {
-  
-                $match_flag = true;
 
                 $iterator  = $no_pattern_micpal_middle[$iterator];
-
 
                 //remove added letter.
                 if($v !== "")
                     $iterator = substr($iterator, 0, -1);
 
-                $iterator  .= $suffix;
+                $iterator .= $suffix;
   
-                $matches_replace[$match] =  $iterator ;
+                $matches_replace[$i] =  $iterator;
                 break;
             } 
-            //
-        }
-        if($match_flag == false)
-        {           
-            $match .= $suffix;
-            $matches_replace[] = $match; 
-        }
-        $match_flag = false;
-        
+        } 
     }
 
-    if(!empty($matches_replace)) {
+    for( $i=0;$i<count($matches);$i++)
+    {
+        if(empty($matches_replace[$i]))
+            continue;
 
-        $matches_keys = array_keys($matches_replace);
-        $matches_replace = array_values($matches_replace);
- 
-        $size = count($matches_keys);
-        for( $i=0;$i<$size;$i++)
-        $text = str_replace($matches_keys[$i],$matches_replace[$i],$text);
+        $text = str_replace($matches[$i],$matches_replace[$i],$text);
     }
 
-    
 return $text;
 }
 
@@ -156,7 +139,7 @@ function remove_suffix($suffixs,$words)
 
 function get_suffix($suffix_patterns_con, $word)
 {
-    return preg_replace($suffix_patterns_con,"\\3",$word);
+    return preg_replace($suffix_patterns_con,"\\2",$word);
 }
 
 function add_letter_e($word)

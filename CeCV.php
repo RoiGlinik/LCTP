@@ -764,6 +764,11 @@ $CeCV_words = array (
 "haraqa" => "hraqa",
 
 
+//
+"tekelt" => "tkelt",
+"yeme" => "yme",
+
+
 
 );
 

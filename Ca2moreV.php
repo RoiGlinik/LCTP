@@ -1,14 +1,14 @@
 <?php
 
 $pattern = array(
-    "/(\\b($C)[a]($C$V$C*$V$C*$V*))\\b/u",
+    "/(\\b($C)[a](($C$V){2,})($C|$V)*(?!ot))\\b/u",
     "/\\b(($C)[a]($C$V$C*$V*$C*)-)/u",
     '/\\bˀabal\\b/u',
 
 );
 
 
-$pattern_rep = array('\2\3','\2\3-','ˀbal');
+$pattern_rep = array('\2\3\5','\2\3-','ˀbal');
 $exceptions = array(
     "ˀarahu",
     "mate-", // only 1 V is needed in case of a dash(-)

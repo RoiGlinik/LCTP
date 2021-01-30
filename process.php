@@ -159,14 +159,14 @@ if (isset($_POST['data'])){
 
 	$fllc = array(
 	" miha-" , " meha-", " u-"," weha-"," ube-"," v-",
-	" uba-" ," umi-"," ulei-", " ule-"," keše-", ' le-',
-	"štayim","šebaˁ","šmonei","tešaˁ"," wela-",' o ',' uwe-',
+	" uba-" ," umi-"," ulei-", " ule-"," keše-", ' le-', 'ubi-',
+	"štayim","šebaˁ","šmonei","tešaˁ"," wela-",' o ',' uwe-', 'meˀah',
 	'šelo', 'šebo'          
 	);
 	$flp = array(
 	" mi-ha-" , " me-ha-"," w-"," w-ha-"," w-b-"," w-",
-	" w-ba-"," w-mi-"," w-l-", " w-l-"," kše-", ' l-',
-	"šteim","šbaˁ","šmone","tšaˁ"," we-l",' ˀo ',' w-b-',
+	" w-ba-"," w-mi-"," w-l-", " w-l-"," kše-", ' l-', 'w-b-',
+	"šteim","šbaˁ","šmone","tšaˁ"," we-l",' ˀo ',' w-b-', 'mˀa',
 	'še-lo', 'še-bo'
 	);
 	$text = str_ireplace($fllc, $flp, $text);
@@ -192,7 +192,7 @@ if (isset($_POST['data'])){
 	//Hemshekhim, words like datiy and bein aswell.
 	//concatenate pattern with new words.
 	
-	$ignored_pattern = "/((\%)|(\d*.?\d+)|(datiy)|(Babel)|(šeni)|(bein)|( he{$C}{$C}[e]{$C})){$suffix}/u";
+	$ignored_pattern = "/((\%)|(\d*.?\d+)|(datiy)|(Babel)|(\\bšeni\\b)|(bein)|( he{$C}{$C}[e]{$C})){$suffix}/u";
 	//echo "$ignored_pattern"; 
 	preg_match_all($ignored_pattern, $text, $matches);
 	$matches = $matches[0];
@@ -243,10 +243,7 @@ if (isset($_POST['data'])){
 	//8 yamXXX -> yamXXX
 	//9 aG1a{2,}.. -> aG1{2,} remove second a
 
-	//fid VGV inside a word.
-	$pattern = "/\\b(($C|$V)+)($V)($G)\\3(($C|$V){2,})\\b/u";
-	$rep_pattern = '\1\3\4\5';
-	$text = preg_replace($pattern, $rep_pattern, $text);
+
 
 	//--------------
 	//remove suffixes from words before applying the Ca2moveV rules .
@@ -305,6 +302,11 @@ if (isset($_POST['data'])){
 	include 'CeCV.php';
 	$text = convertToRegEx($CeCV_words, $text);
 	//include 'C1C2[aeu].php';
+
+		//fid VGV inside a word.
+		$pattern = "/\\b(($C|$V)+)($V)($G)\\3(($C|$V){2,})\\b/u";
+		$rep_pattern = '\1\3\4\5';
+		$text = preg_replace($pattern, $rep_pattern, $text);
 	
 	include 'words_ending_with_alif.php';
 	$text = convertToRegEx($words_ending_with_alif, $text);

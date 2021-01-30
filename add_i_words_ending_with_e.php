@@ -2,12 +2,13 @@
 
 
 	$pattern = array(
-	 "/\\b(($C|$V){4,}[e]\\b)/u",
+     "/\\b(($C|$V){4,}[e]\\b)/u",
+     "/\\b(yme)/"
 	// "/([ ,]($C|$V){3,}[e])[-](($C|$V){3,})/u",
 	// "/([ ,]($C*$V+$C*)[e])[-](($C|$V){3,})/u",
 	);
 	
-    $pattern_rep = array( '\1i',  /*'\1i-\3', '\1i-\3'*/);
+    $pattern_rep = array( '\1i', "ymei", /*'\1i-\3', '\1i-\3'*/);
     
     $exceptions = array(
         "nidme",

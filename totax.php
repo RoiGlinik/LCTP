@@ -621,6 +621,7 @@ $totax_list = array (
     "ˁegem" => "ˁegm",
     "ˁedep" => "ˁedp",
     "ˁezeb" => "ˁezb",
+    "ˁezer" => "ˁezr",
     "ˁezez" => "ˁezz",
     "ˁeṭep" => "ˁeṭp",
     "ˁeṭer" => "ˁeṭr",
