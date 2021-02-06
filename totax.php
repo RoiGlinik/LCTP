@@ -829,7 +829,7 @@ $totax_list = array (
     'boqer' => 'boqr',
     'ˀeçel' => 'ˀeçl',
     'qodem' => 'qodm', 
-    
+    'zohar' => 'zohr',
 
 
    );
