@@ -26,7 +26,7 @@ will replace matches with %s and then recover them with vsprint.
 
         "/(\\b([hmˀnty][u]($C))([a]$C)\\b)/ui", //7
         "/(\\b([nythˀ][i]($C))([a]{$C}[e]$C))/u", //8
-        "/\\b({$C}[e]([ˀˁr]))([u]$C)$suffix\\b/u", //9
+        //"/\\b({$C}[e]([ˀˁr]))([u]$C)$suffix\\b/u", //9
         "/\\b({$C}[i]($C))([i]{$C1}[uai]?)\\b/u", //10
         "/\\b([h][i]($C))([i]$C)\\b/u", //12
    
@@ -53,13 +53,13 @@ will replace matches with %s and then recover them with vsprint.
         '\2\3\4', //2
         '\2\3ta\4\4\5', //3
         '\3cṭa\5\5\6', //4
-        //'\1\2\3', //5
+        '\1\2\3', //5
         '\2\3\4', //6
         //'\1\2\3',
         '\2\3\4', //7
         //'\1\2\3', //this is the yahid case...
         '\2\3\4', //8
-        '\2\3\4', //9
+        //'\2\3\4', //9
         '\1\2\3\4', //10
         '\1\2\3', //11
         '\1\2\3', //12

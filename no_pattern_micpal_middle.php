@@ -1751,6 +1751,7 @@ $no_pattern_micpal_middle = array (
     'marut' => 'marrut',
     'major' => 'majjor',
     'mnaḥem' => 'mnaḥḥem',
+    'mnahel' => 'mnahhel',
     'naçoḥ' => 'naççoḥ',
     'sabon' => 'sabbon',
     'sakum' => 'sakkum',

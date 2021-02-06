@@ -298,8 +298,10 @@ if (isset($_POST['data'])){
 	//CeCV -> CCV 
 	//[e]->word ==> ei-[word]
 	include 'C1aC2eC3.php';
-	include 'normal_patterns.php';
+	//include 'normal_patterns.php';
+	include 'C1e[ˀˁr]uC2suffix.php';
 	include 'CeCV.php';
+
 	$text = convertToRegEx($CeCV_words, $text);
 	//include 'C1C2[aeu].php';
 
