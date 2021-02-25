@@ -275,3 +275,11 @@ for($i = 0; $i< sizeof($pattern) ; $i++)
 {
    $text = preg_match_with_pattern_exception_on_matches($pattern[$i], $pattern_rep[$i] ,$exceptions, $h_exception, $text);
 }
+
+
+
+$remove_h_list = array (
+   'roˁeh' => 'roˁe',
+);
+
+$text = convertToRegEx($remove_h_list, $text);

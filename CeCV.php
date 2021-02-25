@@ -27,6 +27,7 @@ $exceptions = array(
     'megapon',
     'ˀenergiya',
     'deqadens',
+    'beduˀim'
      
 );
 
