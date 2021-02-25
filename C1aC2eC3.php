@@ -5,6 +5,7 @@ $pattern_rep = array('\1\2\3');
 $exceptions = array(
     'hagen',
     'laken',
+    'mawet'
 
 );
 

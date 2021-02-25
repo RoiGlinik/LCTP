@@ -158,13 +158,13 @@ if (isset($_POST['data'])){
 
 
 	$fllc = array(
-	" miha-" , " meha-", " u-"," weha-"," ube-"," v-",
+	" miha-" , " meha-", " u-"," weha-"," ube-"," v-", "wa-",
 	" uba-" ," umi-"," ulei-", " ule-"," keše-", ' le-', 'ubi-',
 	"štayim","šebaˁ","šmonei","tešaˁ"," wela-",' o ',' uwe-', 'meˀah',
 	'šelo', 'šebo'          
 	);
 	$flp = array(
-	" mi-ha-" , " me-ha-"," w-"," w-ha-"," w-b-"," w-",
+	" mi-ha-" , " me-ha-"," w-"," w-ha-"," w-b-"," w-", "w-",
 	" w-ba-"," w-mi-"," w-l-", " w-l-"," kše-", ' l-', 'w-b-',
 	"šteim","šbaˁ","šmone","tšaˁ"," we-l",' ˀo ',' w-b-', 'mˀa',
 	'še-lo', 'še-bo'
@@ -290,7 +290,7 @@ if (isset($_POST['data'])){
 	//$text = preg_replace($pattern, $rep_pattern, $text);
 
 	//replace ben->bein also for suffixes case, example: benaym-> beinaym
-	include 'ben_bein.php';
+	//include 'ben_bein.php';
 
 	include 'totax.php';
 	$text = convertToRegEx($totax_list, $text);

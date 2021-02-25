@@ -353,20 +353,3 @@ function check_patterns_with_no_suffix_verbs($words,$suffix_patterns, $p, $rep, 
 
 }
 
-$pattern = "/(($C|$V)+we)/u";
-$rep = "\\1i";
-
-//verb suffixes section.
-if(preg_match($suffix_patterns_verb_con, $text))
-{
-    $words = get_suffix_words($suffix_patterns_verb_con, $text);
-
-    if(!empty($words))
-    {
-      // $text = check_patterns_with_no_suffix_add_e($words,$suffix_patterns_con,$normal_patterns,$normal_patterns_rep ,$text);
-      $text = check_patterns_with_no_suffix_verbs($words,$suffix_patterns_verb_con, $pattern, $rep ,$text);
-    
-       
-    }
-   
-}

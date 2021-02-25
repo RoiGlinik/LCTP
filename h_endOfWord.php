@@ -280,6 +280,7 @@ for($i = 0; $i< sizeof($pattern) ; $i++)
 
 $remove_h_list = array (
    'roˁeh' => 'roˁe',
+   "mˁaśeh" => "mˁaśe",
 );
 
 $text = convertToRegEx($remove_h_list, $text);
