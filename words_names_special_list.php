@@ -21,7 +21,8 @@ $names = array(
     'ˁaśot' => 'ˁśot',
     'ˀek' => 'ˀeik',
     'yiśrˀlim' => 'yiśrˀelim',
-    'hinom' => 'hinnom'
+    'hinom' => 'hinnom',
+
 );
 
 function convertNames( $arrayOfWords , $inputText )

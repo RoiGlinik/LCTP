@@ -268,6 +268,7 @@ $h_exception = array(
 'zḥiḥah',
 'bah',
 'znabah',
+'milḥamtah'
 );    
 
 

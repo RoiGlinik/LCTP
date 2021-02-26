@@ -565,7 +565,9 @@ $aetAtEndOfWord = array (
     'ˀaḥḥedet' => 'ˀaḥḥedt',
     'ˀayyelet' => 'ˀayyelt',
     'ˀrešet' => 'ˀrešt',  
-    'šurra' => 'šura', 
+    'šurra' => 'šura',
+    'nmalonet' => 'nmalont',
+    'qriboleṭ' => 'qribolṭ'
 
     );
 

@@ -166,7 +166,7 @@ if (isset($_POST['data'])){
 	$flp = array(
 	" mi-ha-" , " me-ha-"," w-"," w-ha-"," w-b-"," w-", "w-",
 	" w-ba-"," w-mi-"," w-l-", " w-l-"," kše-", ' l-', 'w-b-',
-	"šteim","šbaˁ","šmone","tšaˁ"," we-l",' ˀo ',' w-b-', 'mˀa',
+	"šteim","šbaˁ","šmone","tšaˁ"," we-la",' ˀo ',' w-b-', 'mˀa',
 	'še-lo', 'še-bo'
 	);
 	$text = str_ireplace($fllc, $flp, $text);
