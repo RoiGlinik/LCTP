@@ -477,6 +477,7 @@ $aetAtEndOfWord = array (
     'tiplecet' => 'tiplect',
     'tipˀeret' => 'tipˀert',
     'tirdemet' => 'tirdemt',
+    'tiqšoret' => 'tiqšort',
     'tkelet' => 'tkelt',
     'warredet' => 'warredt',
     'wassetet' => 'wassett',

@@ -55,6 +55,7 @@ $no_pattern_micpal_middle = array (
     'šayaḥit' => 'šayyaḥit',
     'šazar' => 'šazzar',
     'šenhab' => 'šenhabb',
+    'šelanu' => 'šellanu',
     'šiša' => 'šišša',
     'šibol' => 'šibbol',
     'šišiya' => 'šiššiya',

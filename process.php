@@ -210,7 +210,7 @@ if (isset($_POST['data'])){
 	//
 	// Names list and special words.
 	//
-	$text = convertNames($names, $text);
+	$text = convertNames($names, $text, $suffix);
 
 
 	

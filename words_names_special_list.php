@@ -20,16 +20,17 @@ $names = array(
     'bayit' => 'bayt',
     'ˁaśot' => 'ˁśot',
     'ˀek' => 'ˀeik',
-    'yiśrˀlim' => 'yiśrˀelim',
+    'yiśreˀel' => 'yiśrˀel',
     'hinom' => 'hinnom',
 
 );
 
-function convertNames( $arrayOfWords , $inputText )
+function convertNames( $arrayOfWords , $inputText , $suffix)
 {
     foreach ($arrayOfWords as $key => $value)
     {
-        $pattern = "/\\b($key)\\b/ui";
+
+        $pattern = "/\\b($key)($suffix)\\b/ui";
         $replace = "$value";
         $inputText = preg_replace($pattern, "$replace\\2", $inputText);
     }

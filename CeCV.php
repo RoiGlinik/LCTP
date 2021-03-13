@@ -10,6 +10,7 @@ $exceptions = array(
     'teˀurim',
     'rešit',
     'šelomo',
+    'šelanu',
     'maḥreša',
     'hemulin',
     'ḥemar',
@@ -28,7 +29,8 @@ $exceptions = array(
     'ˀenergiya',
     'deqadens',
     'beduˀim',
-    'menašes'
+    'menašes',
+    'demoqraṭyah'
      
 );
 

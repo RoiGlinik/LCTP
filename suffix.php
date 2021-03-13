@@ -32,6 +32,7 @@
 		'šˀelot',
 		'ˀemet',
 		'gderot',		
+		'yiśrˀelit'
 	);
 
 	$size = count($suffix_patterns);
