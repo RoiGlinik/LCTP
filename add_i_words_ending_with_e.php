@@ -23,3 +23,9 @@
         $text = preg_match_with_exceptions($pattern[$i], $pattern_rep[$i] ,$exceptions, $text);
     }
     
+
+    $add_i_words_ending_with_e = array (
+        'raše' => 'rašei',
+     );
+     
+    $text = convertToRegEx($add_i_words_ending_with_e, $text);

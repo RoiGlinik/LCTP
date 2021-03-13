@@ -251,7 +251,6 @@ $no_pattern_micpal_end = array (
 'bad'=> 'badd',
 'ballaˀ'=> 'ballaˀˀ',
 'šaˀnan'=> 'šaˀnann',
-'bar'=> 'barr',
 'barzel'=> 'barzell',
 'bat'=> 'batt',
 'baz'=> 'bazz',

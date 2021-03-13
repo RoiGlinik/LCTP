@@ -35,6 +35,9 @@ $exceptions = array(
     'çalašim',
     'zaruˁa',
     'çarepati',
+    'kapayim',
+    'katabato',
+    'raše-'
 );
 
 for($i = 0; $i< sizeof($pattern) ; $i++)
