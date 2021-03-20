@@ -1756,6 +1756,7 @@ $no_pattern_micpal_middle = array (
     'marut' => 'marrut',
     'major' => 'majjor',
     'mnaḥem' => 'mnaḥḥem',
+    
     'mnahel' => 'mnahhel',
     'naçoḥ' => 'naççoḥ',
     'sabon' => 'sabbon',
@@ -2017,6 +2018,7 @@ $no_pattern_micpal_middle = array (
     'daber' => 'dabber',
     'gadel' => 'gaddel',
     'ḥibqa' => 'ḥibbqa',
+    'ḥizayon' => 'ḥizzayon',
     'ṭayel' => 'ṭayyel',
     'qṭanot' => 'qṭannot',
     'ḥçuba' => 'ḥçubba',
@@ -2037,5 +2039,6 @@ $no_pattern_micpal_middle = array (
     'mašehu' => 'maššehu',
     'mḥumam' => 'mḥummam',
     'ˀaḥert' => 'ˀaḥḥert',
+    'ˀaḥt' => 'ˀaḥḥt'
 );
 

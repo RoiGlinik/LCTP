@@ -26,6 +26,8 @@
 
     $add_i_words_ending_with_e = array (
         'raše' => 'rašei',
+        'nope' => 'nopei'
+
      );
      
     $text = convertToRegEx($add_i_words_ending_with_e, $text);
