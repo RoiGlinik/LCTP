@@ -16,7 +16,8 @@ $exceptions = array(
     'ˀaḥib',
     'haqim',
     'ˀamir',
-    'yapim'
+    'yapim',
+    'yaˀir'
 );
 
 $text = preg_match_with_exceptions($pattern, $pattern_rep ,

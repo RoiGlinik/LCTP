@@ -22,7 +22,10 @@ $names = array(
     'ˀek' => 'ˀeik',
     'yiśreˀel' => 'yiśrˀel',
     'hinom' => 'hinnom',
-    'mošeh' => 'moše'
+    'mošeh' => 'moše',
+    'qayiç' => 'qayç',
+    'parašiyot' => 'paršiyot',
+    'galeriyot' => 'galeryot'
 
 );
 

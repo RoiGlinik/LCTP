@@ -4,6 +4,7 @@ $pattern = array("/\\b({$C}[e]([ˀˁr]))([u]$C)$suffix\\b/u",);
 $pattern_rep = array('\1\2\3\4');
 $exceptions = array(
     "neˁurim",
+    'geˀulim'
 
 );
 
