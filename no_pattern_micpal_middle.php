@@ -2033,6 +2033,7 @@ $no_pattern_micpal_middle = array (
     'ˀele' => 'ˀelle',
     'mbaza' => 'mbazza',
     'mebadḥ' => 'mebaddḥ',
+    'mebadaḥ' => 'mebaddaḥ',
     'rubam' => 'rubbam',
     'tiçṭarep' => 'tiçṭarrep',
     'msuyam' => 'msuyyam',

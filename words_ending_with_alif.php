@@ -139,6 +139,7 @@ $words_ending_with_alif = array (
     'yoce' => 'yoceˀ',
     'mupla' => 'muplaˀ',
     'zaruˁa' => 'zaruˁ',
+    'lo' => 'loˀ'
 
     
  

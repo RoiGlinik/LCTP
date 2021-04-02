@@ -26,7 +26,8 @@
 
     $add_i_words_ending_with_e = array (
         'raše' => 'rašei',
-        'nope' => 'nopei'
+        'nope' => 'nopei',
+        'bene' => 'bnei'
 
      );
      
