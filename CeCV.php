@@ -30,7 +30,7 @@ $exceptions = array(
     'deqadens',
     'beduˀim',
     'menašes',
-    'demoqraṭyah'
+    'demoqraṭyah',
      
 );
 

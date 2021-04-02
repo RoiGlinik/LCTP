@@ -23,6 +23,9 @@ $names = array(
     'yiśreˀel' => 'yiśrˀel',
     'hinom' => 'hinnom',
     'mošeh' => 'moše',
+    'qayiç' => 'qayç',
+    'parašiyot' => 'paršiyot',
+    'galeriyot' => 'galeryot',
     'nekot' => 'nkoˀt',
     'šeˀelot' => 'šˀelot'
 

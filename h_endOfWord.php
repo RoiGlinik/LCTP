@@ -282,6 +282,7 @@ for($i = 0; $i< sizeof($pattern) ; $i++)
 $remove_h_list = array (
    'roˁeh' => 'roˁe',
    "mˁaśeh" => "mˁaśe",
+   'ˀaryeh' => 'ˀarye',
    'zeh' => 'ze'
 );
 

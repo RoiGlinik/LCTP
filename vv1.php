@@ -59,7 +59,7 @@ $suffix_patterns = array(
     "/((\S*)([o][t]\b))/u"
     );
 
-    $suffix_patterns_con =  "/([^-,.\n ]*)(ut|at|on|aym|iyut|it|iyyut|im|ot|ahem|an|u|i|a|e|to|t)\\b/u";
+    $suffix_patterns_con =  "/([^-,.\n ]*)(ut|at|on|aym|iyut|it|iyyut|im|ot|ahem|an|u|i|a|e|to|ehem|t)\\b/u";
 
 
 $suffix_replace = array(
