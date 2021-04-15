@@ -27,7 +27,12 @@ $names = array(
     'parašiyot' => 'paršiyot',
     'galeriyot' => 'galeryot',
     'nekot' => 'nkoˀt',
-    'šeˀelot' => 'šˀelot'
+    'šeˀelot' => 'šˀelot',
+    'ˁarkam' => 'ˁerkam',
+    'meno' => 'mnoˁ',
+    'mešorer' => 'mšorr',
+    'ˀalep' => 'ˀalp'
+
 
 );
 
