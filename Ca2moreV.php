@@ -41,10 +41,20 @@ $exceptions = array(
     'raqepet',
     'ḥayehem',
     'parašiyot',
-    'galeriyot'
+    'galeriyot',
+    'ˀagadot',
+    'šarak'
 );
 
 for($i = 0; $i< sizeof($pattern) ; $i++)
 {
     $text = preg_match_with_exceptions($pattern[$i], $pattern_rep[$i] ,$exceptions, $text);
 }
+
+
+$remove_a_list = array (
+    'ḥataltulah' => 'ḥtaltulah',
+
+ );
+ 
+ $text = convertToRegEx($remove_a_list, $text);
