@@ -343,6 +343,7 @@ $no_pattern_micpal_middle = array (
     'ˀumanut' => 'ˀummanut',
     'ˀunit' => 'ˀunnit',
     'ˀḥuza' => 'ˀḥuzza',
+    'ḥuyabn' => 'ḥuyyabn',
     'ˀabšanš' => 'ˀabbšanš',
     'ˀamam' => 'ˀammam',
     'ˀatat' => 'ˀattat',

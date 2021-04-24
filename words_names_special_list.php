@@ -31,7 +31,9 @@ $names = array(
     'ˁarkam' => 'ˁerkam',
     'meno' => 'mnoˁ',
     'mešorer' => 'mšorr',
-    'ˀalep' => 'ˀalp'
+    'ˀalep' => 'ˀalp',
+    'yiśreˀeli' => 'yiśrˀeli',
+    'ˀišah' => 'ˀiššah'
 
 
 );
