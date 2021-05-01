@@ -29,7 +29,7 @@ $totax_list = array (
     "ˀepaˁ" => "epˁ",
    "ˀereb" => "ˀerb",
     "ˀerek" => "erk",
-    "ˀereç" => "erç",
+    "ˀereç" => "ˀerç",
     "ˀareç" => "ˀarç",
    	"ˀešek" => "ˀešk" ,
     "beged" => "begd",
@@ -840,5 +840,6 @@ $totax_list = array (
     'ˁemeq' => 'ˁemq',
     'noˁar' => 'noˁr',
     'ˀogen' => 'ˀogn',
-    'ˀalep' => 'ˀalp'
+    'ˀalep' => 'ˀalp',
+    'diwuaḥ' => 'diwuḥ'
    );

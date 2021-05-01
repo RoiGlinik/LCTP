@@ -67,6 +67,7 @@ $no_pattern_micpal_middle = array (
     'šileša' => 'šilleša',
     'šilem' => 'šillem',
     'šiluḥim' => 'šilluḥim',
+    'šilub' => 'šillub',
     'šlabit' => 'šlabbit',
     'šmiṭa' => 'šmiṭṭa',
     'šošana' => 'šošanna',
@@ -509,7 +510,7 @@ $no_pattern_micpal_middle = array (
     'dayqan' => 'dayyqan',
     'dayqanut' => 'dayyqanut',
     'diba' => 'dibba',
-    'diwuaḥ' => 'diwwuaḥ',
+    'diwuḥ' => 'diwwuḥ',
     'diber' => 'dibber',
     'dibra' => 'dibbra',
     //'dom_mut',
@@ -1398,6 +1399,7 @@ $no_pattern_micpal_middle = array (
     'siyomt' => 'siyyomt',
     'smadar' => 'smadarr',
     'snapir' => 'snappir',
+    'sipur' => 'sippur',
     //'sok_kan',
     //'sok_kanut',
     //'sok_kon',
@@ -2036,6 +2038,7 @@ $no_pattern_micpal_middle = array (
     'mbaza' => 'mbazza',
     'mebadḥ' => 'mebaddḥ',
     'mebadaḥ' => 'mebaddaḥ',
+    'mzaype' => 'mzayype',
     'rubam' => 'rubbam',
     'tiçṭarep' => 'tiçṭarrep',
     'msuyam' => 'msuyyam',
@@ -2043,6 +2046,8 @@ $no_pattern_micpal_middle = array (
     'mašehu' => 'maššehu',
     'mḥumam' => 'mḥummam',
     'ˀaḥert' => 'ˀaḥḥert',
-    'ˀaḥt' => 'ˀaḥḥt'
+    'ˀaḥt' => 'ˀaḥḥt',
+    'ˁiyun' => 'ˁiyyun',
+    'qibuç' => 'qibbuç'
 );
 

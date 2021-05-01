@@ -33,8 +33,8 @@ $names = array(
     'mešorer' => 'mšorr',
     'ˀalep' => 'ˀalp',
     'yiśreˀeli' => 'yiśrˀeli',
-    'ˀišah' => 'ˀiššah'
-
+    'ˀišah' => 'ˀiššah',
+    'yaˁaqob' => 'yaˁqob'
 
 );
 

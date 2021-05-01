@@ -31,6 +31,8 @@ $exceptions = array(
     'beduˀim',
     'menašes',
     'demoqraṭyah',
+    'meḥebah',
+    'neˁerkah'
      
 );
 
