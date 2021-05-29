@@ -423,7 +423,6 @@ $no_pattern_micpal_end = array (
 'xod'=> 'xodd',
 'xom'=> 'xomm',
 'xrumap'=> 'xrumapp',
-//'yam'=> 'yamm',
 'zalzal'=> 'zalzall',
 'zan'=> 'zann',
 'zman'=> 'zmann',

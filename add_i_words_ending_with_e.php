@@ -15,7 +15,8 @@
         "maˀne", 
         "harbe",
         "naˁśe",
-        'ˀelle'
+        'ˀelle',
+        'ˀelie',
     );
     
     for($i = 0; $i< sizeof($pattern) ; $i++)
@@ -27,7 +28,8 @@
     $add_i_words_ending_with_e = array (
         'raše' => 'rašei',
         'nope' => 'nopei',
-        'bene' => 'bnei'
+        'bene' => 'bnei',
+        'pne' => 'pnei'
 
      );
      

@@ -305,10 +305,7 @@ if (isset($_POST['data'])){
 	$text = convertToRegEx($CeCV_words, $text);
 	//include 'C1C2[aeu].php';
 
-		//fid VGV inside a word.
-		$pattern = "/\\b(($C|$V)+)($V)($G)\\3(($C|$V){2,})\\b/u";
-		$rep_pattern = '\1\3\4\5';
-		$text = preg_replace($pattern, $rep_pattern, $text);
+	include 'VGV.php';
 	
 	include 'words_ending_with_alif.php';
 	$text = convertToRegEx($words_ending_with_alif, $text);

@@ -31,9 +31,10 @@ $exceptions = array(
     'beduˀim',
     'menašes',
     'demoqraṭyah',
-    'meḥebah',
-    'neˁerkah'
-     
+    'meḥewah',
+    'neˁerkah',
+    'ˀelie',
+    
 );
 
 $CeCV_words = array (
@@ -769,6 +770,7 @@ $CeCV_words = array (
 "hariga" => "hriga",
 "haraça" => "hraça",
 "haraqa" => "hraqa",
+'pene' => 'pne',
 
 
 //

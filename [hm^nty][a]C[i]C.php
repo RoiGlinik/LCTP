@@ -6,7 +6,6 @@ $pattern_rep = '\1\2\3';
 $exceptions = array(
     "yaḥid",
     'yamim',
-    'Yamim',
     'tamid',
     'hayit',
     'nagid',

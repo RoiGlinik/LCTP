@@ -1639,7 +1639,6 @@ $no_pattern_micpal_middle = array (
     'yaçibut' => 'yaççibut',
     'yaçranut' => 'yaççranut',
     'yaduˁ' => 'yadduˁ',
-    'yama' => 'yamma',
     'yamaˀit' => 'yammaˀit',
     'yamaˀut' => 'yammaˀut',
     'yamaˀy' => 'yammaˀy',
@@ -2048,6 +2047,7 @@ $no_pattern_micpal_middle = array (
     'ˀaḥert' => 'ˀaḥḥert',
     'ˀaḥt' => 'ˀaḥḥt',
     'ˁiyun' => 'ˁiyyun',
-    'qibuç' => 'qibbuç'
+    'qibuç' => 'qibbuç',
+    'ḥinuki' => 'ḥinnuki'
 );
 

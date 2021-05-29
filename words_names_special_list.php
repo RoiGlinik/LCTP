@@ -34,7 +34,8 @@ $names = array(
     'ˀalep' => 'ˀalp',
     'yiśreˀeli' => 'yiśrˀeli',
     'ˀišah' => 'ˀiššah',
-    'yaˁaqob' => 'yaˁqob'
+    'yaˁaqob' => 'yaˁqob',
+    'mr' => 'marr'
 
 );
 
