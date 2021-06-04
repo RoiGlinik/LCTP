@@ -776,6 +776,8 @@ $CeCV_words = array (
 //
 "tekelt" => "tkelt",
 "yeme" => "yme",
+'yede' => 'ydey',
+'keše' => 'kše'
 
 
 

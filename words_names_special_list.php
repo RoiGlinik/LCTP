@@ -36,7 +36,12 @@ $names = array(
     'ˀišah' => 'ˀiššah',
     'yaˁaqob' => 'yaˁqob',
     'mr' => 'marr',
-    'ˀayelet' => 'ˀayyelet'
+    'ˀayelet' => 'ˀayyelet',
+    'zeeby' => 'zˀeby',
+    'reḥabam' => 'rḥabˁam',
+    'rechabam' => 'rḥabˁam',
+    'rišonah' => 'riˀšona',
+    'çon' => 'çoˀn'
 
 );
 

@@ -17,6 +17,7 @@
         "naˁśe",
         'ˀelle',
         'ˀelie',
+        'šelle'
     );
     
     for($i = 0; $i< sizeof($pattern) ; $i++)
