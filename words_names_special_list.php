@@ -30,7 +30,7 @@ $names = array(
     'šeˀelot' => 'šˀelot',
     'ˁarkam' => 'ˁerkam',
     'meno' => 'mnoˁ',
-    'mešorer' => 'mšorr',
+    'mešorer' => 'mšor_r',
     'ˀalep' => 'ˀalp',
     'yiśreˀeli' => 'yiśrˀeli',
     'ˀišah' => 'ˀiššah',
@@ -41,7 +41,7 @@ $names = array(
     'reḥabam' => 'rḥabˁam',
     'rechabam' => 'rḥabˁam',
     'rišonah' => 'riˀšona',
-    'çon' => 'çoˀn'
+    'çon' => 'çoˀn',
 
 );
 

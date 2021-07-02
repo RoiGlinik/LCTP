@@ -45,7 +45,11 @@ $exceptions = array(
     'ˀagadot',
     'šarak',
     'taḥarut',
-    'yahadut'
+    'yahadut',
+    'maˀamarim',
+    'maˁaśiyot',
+    'daḥalah'
+
 );
 
 for($i = 0; $i< sizeof($pattern) ; $i++)
@@ -56,6 +60,7 @@ for($i = 0; $i< sizeof($pattern) ; $i++)
 
 $remove_a_list = array (
     'ḥataltulah' => 'ḥtaltulah',
+    'ˁaqabya' => 'ˁqabya'
 
  );
  

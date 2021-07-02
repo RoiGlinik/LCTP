@@ -571,7 +571,10 @@ $aetAtEndOfWord = array (
     'qriboleṭ' => 'qribolṭ',
     'mlot' => 'mloˀt',
     'mipreśe' => 'miprśe',
-    'šelle' => 'šel'
+    'šelle' => 'šel',
+    'šabuˁa' => 'šabuˁ',
+    'quenan' => 'qenan',
+    'mawet' => 'mawt'
 
     );
 

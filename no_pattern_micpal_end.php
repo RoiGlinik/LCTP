@@ -381,7 +381,6 @@ $no_pattern_micpal_end = array (
 'qat'=> 'qatt',
 'qaw'=> 'qaww',
 'qeç'=> 'qeçç',
-'qen'=> 'qenn',
 'qop'=> 'qopp',
 //'qor'=> 'qorr',
 'rab'=> 'rabb',
