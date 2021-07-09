@@ -1,7 +1,7 @@
 <?php
 
 	$suffix_patterns = array(
-	"/\\b(($C|$V){2,})e({$C}(ut|on|aym|iyut|it|iyyut|ot))\\b/u",
+	"/\\b(($C|$V){2,})e({$C}(ut|on|aym|iyut|it|iyyut|ot|im))\\b/u",
 
 	"/((($C|$V){2,})ayim)/u", //9
 	"/\\b((($C|$V)+)ehem)\\b/u", //10

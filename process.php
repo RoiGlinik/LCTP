@@ -10,7 +10,7 @@ $trans = array( 'a' => 'a' , "‛" => "ˀ", "`" => "ˀ", '’' => 'ˀ', 'ʼ' => 
  'ṿ' => 'w',  'z' => 'z', "z'"=>"ž", "Z'"=>"Ž", 'y' => 'y' /*, 'k' => 'k'*/, 'Kh' => 'K',
  'kh' => 'k', 'l' => 'l' , 'm' => 'm', 
  'n' => 'n' , 's' => 's', 'ʻ' => 'ˁ', '‘' => 'ˁ', "'" => 'ˁ',
- 'p' => 'p', 'f' => 'p', 'F' => 'p', "Ts" => 'ç', "ts" => 'ç', 'ḳ' => 'q', 
+ 'p' => 'p', 'f' => 'p', 'F' => 'p', "Ts" => 'ç', "ts" => 'ç', 'tz' => 'ç',  'ḳ' => 'q', 
  'ḳ' => 'q', 'Ḳ' => 'q', 'r' => 'r', 'sh' => 'š',
  'ś' => 'ś', 't' => 't', 'Sh' =>'š' );
 
@@ -161,13 +161,13 @@ if (isset($_POST['data'])){
 	" miha-" , " meha-", " u-"," weha-"," ube-"," v-", "wa-",
 	" uba-" ," umi-"," ulei-", " ule-"," keše-", ' le-', 'ubi-',
 	"štayim","šebaˁ","šmonei","tešaˁ"," wela-",' o ',' uwe-', 'meˀah',
-	'šelo', 'šebo'          
+	'šelo', 'šebo', 'ba-'      
 	);
 	$flp = array(
 	" mi-ha-" , " me-ha-"," w-"," w-ha-"," w-b-"," w-", "w-",
 	" w-ba-"," w-mi-"," w-l-", " w-l-"," kše-", ' l-', 'w-b-',
 	"šteim","šbaˁ","šmone","tšaˁ"," we-la",' ˀo ',' w-b-', 'mˀa',
-	'še-lo', 'še-bo'
+	'še-lo', 'še-bo', 'b-'
 	);
 	$text = str_ireplace($fllc, $flp, $text);
 
